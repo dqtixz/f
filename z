@@ -1,0 +1,1063 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Title of the library", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Tab 1",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+Tab:AddButton({
+	Name = "Equip All Default",
+	Callback = function()
+      		local args = {
+    [1] = "Default",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All Adios",
+	Callback = function()
+      		local args = {
+    [1] = "Adios",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Baller",
+	Callback = function()
+      		local args = {
+    [1] = "Baller",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Balloony",
+	Callback = function()
+      		local args = {
+    [1] = "Balloony",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Blackhole",
+	Callback = function()
+      		local args = {
+    [1] = "Blackhole",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Blink",
+	Callback = function()
+      		local args = {
+    [1] = "Blink",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Blocked",
+	Callback = function()
+      		local args = {
+    [1] = "Blocked",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Boomerang",
+	Callback = function()
+      		local args = {
+    [1] = "Boomerang",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Booster",
+	Callback = function()
+      		local args = {
+    [1] = "Booster",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All Brick",
+	Callback = function()
+      		local args = {
+    [1] = "Brick",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All Bull",
+	Callback = function()
+      		local args = {
+    [1] = "Bull",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Chicken",
+	Callback = function()
+      		local args = {
+    [1] = "Chicken",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All Cloud",
+	Callback = function()
+      		local args = {
+    [1] = "Cloud",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All Coil",
+	Callback = function()
+      		local args = {
+    [1] = "Coil",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All Conveyor",
+	Callback = function()
+      		local args = {
+    [1] = "Conveyor",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Defense",
+	Callback = function()
+      		local args = {
+    [1] = "Defense",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Diamond",
+	Callback = function()
+      		local args = {
+    [1] = "Diamond",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Dice",
+	Callback = function()
+      		local args = {
+    [1] = "Dice",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Divert",
+	Callback = function()
+      		local args = {
+    [1] = "Divert",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Dual",
+	Callback = function()
+      		local args = {
+    [1] = "Dual",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Duelist",
+	Callback = function()
+      		local args = {
+    [1] = "Duelist",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "Equip All Engineer",
+	Callback = function()
+      		local args = {
+    [1] = "Engineer",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "Equip All Extended",
+	Callback = function()
+      		local args = {
+    [1] = "Extended",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "Equip All Ferryman",
+	Callback = function()
+      		local args = {
+    [1] = "Ferryman",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "Equip All Flash",
+	Callback = function()
+      		local args = {
+    [1] = "Flash",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "Equip All Fort",
+	Callback = function()
+      		local args = {
+    [1] = "Fort",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Ghost",
+	Callback = function()
+      		local args = {
+    [1] = "Ghost",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All Golden",
+	Callback = function()
+      		local args = {
+    [1] = "Golden",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Guardian Angel",
+	Callback = function()
+      		local args = {
+    [1] = "Guardian Angel",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Golem",
+	Callback = function()
+      		local args = {
+    [1] = "Golem",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Grapple",
+	Callback = function()
+      		local args = {
+    [1] = "Grapple",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Gravity",
+	Callback = function()
+      		local args = {
+    [1] = "Gravity",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Gummy",
+	Callback = function()
+      		local args = {
+    [1] = "Gummy",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Home Run",
+	Callback = function()
+      		local args = {
+    [1] = "Home Run",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All Ice",
+	Callback = function()
+      		local args = {
+    [1] = "Ice",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All Killstreak",
+	Callback = function()
+      		local args = {
+    [1] = "Killstreak",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All L.O.L.B.O.M.B",
+	Callback = function()
+      		local args = {
+    [1] = "L.O.L.B.O.M.B",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All MR",
+	Callback = function()
+      		local args = {
+    [1] = "MR",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "Equip All Magnet",
+	Callback = function()
+      		local args = {
+    [1] = "Magnet",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "Equip All Mail",
+	Callback = function()
+      		local args = {
+    [1] = "Mail",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All Meteor",
+	Callback = function()
+      		local args = {
+    [1] = "Meteor",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All Nightmare",
+	Callback = function()
+      		local args = {
+    [1] = "Nightmare",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "Equip All Oven",
+	Callback = function()
+      		local args = {
+    [1] = "Oven",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "Equip All Parry",
+	Callback = function()
+      		local args = {
+    [1] = "Parry",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "Equip All Phantom",
+	Callback = function()
+      		local args = {
+    [1] = "Phantom",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "Equip All Phase",
+	Callback = function()
+      		local args = {
+    [1] = "Phase",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "Equip All Ping Pong",
+	Callback = function()
+      		local args = {
+    [1] = "Ping Pong",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "Equip All Plague",
+	Callback = function()
+      		local args = {
+    [1] = "Plague",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Pocket",
+	Callback = function()
+      		local args = {
+    [1] = "Pocket",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All Pull",
+	Callback = function()
+      		local args = {
+    [1] = "Pull",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All Pusher",
+	Callback = function()
+      		local args = {
+    [1] = "Pusher",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All Reaper",
+	Callback = function()
+      		local args = {
+    [1] = "Reaper",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All Recall",
+	Callback = function()
+      		local args = {
+    [1] = "Recall",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Replica",
+	Callback = function()
+      		local args = {
+    [1] = "Replica",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All Reverse",
+	Callback = function()
+      		local args = {
+    [1] = "Reverse",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All Rocky",
+	Callback = function()
+      		local args = {
+    [1] = "Rocky",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All STOP",
+	Callback = function()
+      		local args = {
+    [1] = "STOP",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All Shard",
+	Callback = function()
+      		local args = {
+    [1] = "Shard",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All Shield",
+	Callback = function()
+      		local args = {
+    [1] = "Shield",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All Shukuchi",
+	Callback = function()
+      		local args = {
+    [1] = "Shukuchi",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All Slapple",
+	Callback = function()
+      		local args = {
+    [1] = "Slapple",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All Slapstick",
+	Callback = function()
+      		local args = {
+    [1] = "Slapstick",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All Slicer",
+	Callback = function()
+      		local args = {
+    [1] = "Slicer",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All Snow",
+	Callback = function()
+      		local args = {
+    [1] = "Snow",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Space",
+	Callback = function()
+      		local args = {
+    [1] = "Space",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Speedrun",
+	Callback = function()
+      		local args = {
+    [1] = "Speedrun",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Spring",
+	Callback = function()
+      		local args = {
+    [1] = "Spring",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Squid",
+	Callback = function()
+      		local args = {
+    [1] = "Squid",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Stun",
+	Callback = function()
+      		local args = {
+    [1] = "Stun",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Sun",
+	Callback = function()
+      		local args = {
+    [1] = "Sun",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Swapper",
+	Callback = function()
+      		local args = {
+    [1] = "Swapper",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All T H I C K",
+	Callback = function()
+      		local args = {
+    [1] = "T H I C K",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Tableflip",
+	Callback = function()
+      		local args = {
+    [1] = "Tableflip",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Thanos",
+	Callback = function()
+      		local args = {
+    [1] = "Thanos",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Thor",
+	Callback = function()
+      		local args = {
+    [1] = "Thor",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Track",
+	Callback = function()
+      		local args = {
+    [1] = "Track",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Tycoon",
+	Callback = function()
+      		local args = {
+    [1] = "Tycoon",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Whirlwind",
+	Callback = function()
+      		local args = {
+    [1] = "Whirlwind",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Woah",
+	Callback = function()
+      		local args = {
+    [1] = "Woah",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All Wormhole",
+	Callback = function()
+      		local args = {
+    [1] = "Wormhole",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Equip All ZZZ",
+	Callback = function()
+      		local args = {
+    [1] = "ZZZ",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All Za Hando",
+	Callback = function()
+      		local args = {
+    [1] = "Za Hando",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Equip All el gato",
+	Callback = function()
+      		local args = {
+    [1] = "el gato",
+    [2] = "equip"
+}
+
+game:GetService("ReplicatedStorage").Events.ToggleEquip:FireServer(unpack(args))
+  	end    
+})
+warn("Script Load !")
+
